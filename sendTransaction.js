@@ -5,14 +5,12 @@ const sdk = new BumoSDK({
 });
 
 
-console.log('pre op');
 const operationInfo = sdk.operation.buSendOperation({
   destAddress: 'buQsBMbFNH3NRJBbFRCPWDzjx7RqRc1hhvn1',
   buAmount: '1',
   metadata:'746573742073656e64206275',
 });
 
-console.log('post op');
 
 if (operationInfo.errorCode !== 0) {
   console.log(operationInfo);
