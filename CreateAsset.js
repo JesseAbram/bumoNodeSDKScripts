@@ -35,7 +35,7 @@ const blobInfo = sdk.transaction.buildBlob({
   sourceAddress: 'buQgvdDfUjmK56K73ba8kqnE1d8azzCRYM9G',
   gasPrice: '1000',
   feeLimit: '5000306000',
-  nonce,
+  nonce:'7',
   operations: [ operationItem ],
 
 
