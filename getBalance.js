@@ -9,7 +9,7 @@ const sdk = new BumoSDK({
 
 sdk.account.getInfo(address).then(info=> {
     console.log(info);
-    fs.writeFileSync("./plat.json", JSON.stringify(info), { encoding: "utf8" });
+    fs.writeFileSync("./balance.json", JSON.stringify(info), { encoding: "utf8" });
 }).catch(err => {
    console.log(err.message);
  });
