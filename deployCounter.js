@@ -42,8 +42,6 @@ function query()
 
 }
   `,
-  initInput: 'aaaaa',
-  // metadata: 'Test contract create operation',
 });
 
 
